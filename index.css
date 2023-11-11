@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #030C2E;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    margin-top: 47px;
+    margin-left: 198px;
+
+}
+
+.naw-ahref {
+    margin-top: 53px;
+    margin-left: 657px;
+    margin-right: 85px;
+    width: 542px;
+    height: 48px;
+    font-size: 26px;    
+}
+
+.naw-ahref a {
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    padding-left:21px ;
+}
+
+.naw-ahref a:hover {
+    font-weight:bold ;
+    transition: .5s;
+    color: #483D8B;
+}
+
+.side {
+    display: flex;
+}
+
+.left-side {
+    width: 800px;
+    height: 600px;
+    margin-left: 160px;
+    margin-top: 113px;
+    display: flex;
+    flex-direction: column;  
+
+}    
+
+.left-side-p1 {
+    font-size: 72px;
+    font-weight: normal;
+    color: white;
+    align-content: center;
+
+}
+
+.left-side-p2 {
+    font-size: 31px;
+    font-weight: normal;
+    color: white;
+}
+
+.left-side-button {
+    width: 255px;
+    height: 89px;
+    margin-top: 64px; 
+    border-radius: 20px;
+    background-color: #122052;
+   
+}
+
+.left-side-button a {
+    font-size: 31px;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    padding-left: 40px; 
+    line-height: 84px;
+}
+
+.left-side-button:hover {
+    background-color:  	#483D8B;
+    transition: .5s;
+}
+
+.right-side  {
+    right: 0;
+    top: 0;
+    margin-right: 143px;
+    margin-left: 960px;
+    margin-bottom: 57px;
+    position: absolute;
+    z-index: -1;
+}
+
+
